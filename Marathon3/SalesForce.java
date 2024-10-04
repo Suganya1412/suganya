@@ -45,9 +45,9 @@ public class SalesForce {
 		Thread.sleep(5000);
 }
 
-	//	@AfterMethod
-	//	public void postCondition() {
-	//	driver.close();
-	//}
+		@AfterMethod
+		public void postCondition() {
+		driver.close();
+	}
 
 }
